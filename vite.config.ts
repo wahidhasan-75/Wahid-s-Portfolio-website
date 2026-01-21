@@ -2,20 +2,17 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // ✅ Required for GitHub Pages (username.github.io/REPO_NAME/)
-  base: "/Wahid-s-Portfolio-website/",
+  // ✅ IMPORTANT for GitHub Pages project repo:
+  // https://wahidhasan-75.github.io/Wahid-s-Portfolio-website/
+  base: mode === "production" ? "/Wahid-s-Portfolio-website/" : "/",
 
   server: {
     host: "::",
     port: 8080,
-    hmr: {
-      overlay: false,
-    },
+    hmr: { overlay: false },
   },
 
-  // Keep the runtime clean and portable (no Lovable-only dev plugins required).
   plugins: [react()],
 
   resolve: {
@@ -24,4 +21,3 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
-
