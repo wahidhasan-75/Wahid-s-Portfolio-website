@@ -1,0 +1,341 @@
+{
+  "howTo": {
+    "note": "Edit this file to attach your real content later. Empty url fields render as disabled cinematic placeholders.",
+    "tip": "Keep the structure. Add or remove items inside arrays. The scene will auto-render without redesign."
+  },
+  "brand": {
+    "name": "Wahid's Multiverse",
+    "tagline": "Travel through a Universe.",
+    "logo": "/brand-mark.svg"
+  },
+  "planets": [
+    {
+      "id": "origin",
+      "title": "ORIGIN",
+      "subtitle": "Where the first signal formed",
+      "poetry": "Not a biography. A frequency.",
+      "color": "#4fc3f7",
+      "position": [-4, 0, -15],
+      "actions": [
+        {
+          "label": "Origin Log",
+          "url": "modal:origin-log",
+          "modal": {
+            "title": "Origin Log",
+            "subtitle": "How it started — step by step",
+            "bullets": [
+              "Fundamentals: C++ and Python",
+              "Exploration: small builds (e.g., Snake Game)",
+              "Growth: automation tools and chatbot experiments",
+              "Web phase: Django / PHP / SQL full-stack",
+              "Applied systems: CommuteX + Garment Costing",
+              "Now: ML, Neural Networks, LLMs, AI-driven systems"
+            ],
+            "footer": "A steady shift from learning syntax to building systems."
+          }
+        },
+        {
+          "label": "Philosophy",
+          "url": "modal:philosophy",
+          "modal": {
+            "title": "Philosophy",
+            "subtitle": "How I approach building",
+            "bullets": [
+              "Start with the problem, not the framework",
+              "Break it into logic, data, and flow",
+              "Full-stack awareness makes better decisions",
+              "Build practical systems with clean structure",
+              "Future focus: intelligent, data-driven automation"
+            ],
+            "footer": "Learning wide, building deep."
+          }
+        },
+        {
+          "label": "Journey Fragment",
+          "url": "modal:journey-fragment",
+          "modal": {
+            "title": "Journey Fragment",
+            "subtitle": "Selected project highlights",
+            "bullets": [
+              "Snake Game (C++): logic foundations",
+              "Automated Chatbot (Python): practical automation",
+              "CommuteX (Django + SQL): real-world workflows and constraints",
+              "Garment Costing App: real process → structured software",
+              "Current: Neural Networks, ML, LLMs → smarter systems"
+            ],
+            "footer": "Each project adds one more layer of understanding."
+          }
+        }
+      ],
+      "origin": {
+        "entries": [
+          {
+            "id": "memory-capsule",
+            "title": "Memory Capsule",
+            "body": "Kazi Wahid Hasan — CSE Student @ BRAC University • Aspiring Software Engineer.\n\nI build full-stack software systems across frontend + backend, turning ideas into working products through code and structure.\nCurrently expanding into AI, machine learning, and intelligent systems.",
+            "url": "modal:memory-capsule",
+            "modal": {
+              "title": "Memory Capsule",
+              "subtitle": "Quick identity snapshot",
+              "tags": ["Full-Stack", "Systems", "AI/ML"],
+              "bullets": [
+                "University: BRAC University",
+                "Location: Dhaka, Bangladesh",
+                "Role focus: Software Engineering (Full-Stack)",
+                "Tech stack: Python, Django, PHP, JavaScript, React, Node.js, SQL, C++, HTML, CSS",
+                "Currently learning: Neural Networks, LLMs, ML, AI system automation, databases",
+                "Built: games, automation tools, web apps, real-world systems"
+              ],
+              "footer": "I learn by building — and I build to understand systems deeply."
+            }
+          },
+          {
+            "id": "belief-system",
+            "title": "Belief System",
+            "body": "Principles I work by — short rules shaped by building.",
+            "url": "modal:belief-system",
+            "modal": {
+              "title": "Belief System",
+              "subtitle": "Principles I work by",
+              "bullets": [
+                "Learning is strongest when applied",
+                "Building reveals what theory hides",
+                "A working system matters more than perfect ideas",
+                "Backend logic is as important as frontend polish",
+                "Databases are the backbone of real applications",
+                "Code should solve problems, not just pass tests",
+                "Growth comes from doing, breaking, and rebuilding"
+              ],
+              "footer": "Rules shaped by building, not just reading."
+            }
+          },
+          {
+            "id": "why-i-build",
+            "title": "Why I Build",
+            "body": "I build because creating something functional from nothing excites me.",
+            "url": "modal:why-i-build",
+            "modal": {
+              "title": "Why I Build",
+              "subtitle": "Motivation & direction",
+              "body": "I build because creating something functional from nothing excites me.\n\nWhether it’s a small game, a web app, or a backend system, I enjoy designing logic, writing code, and watching an idea become a real, usable product.\n\nI don’t just want to know how things work — I want to make them work.",
+              "footer": "Curiosity turned into code."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "forge",
+      "title": "FORGE",
+      "subtitle": "Where problems become artifacts",
+      "poetry": "Entering the workshop of creation.",
+      "color": "#ba68c8",
+      "position": [3, 2, -25],
+      "actions": [
+        { "label": "Project Portals", "url": "https://github.com/wahidhasan-75" },
+        { "label": "Case Files", "url": "" },
+        { "label": "Source Links", "url": "https://github.com/wahidhasan-75" }
+      ],
+      "forge": {
+        "projects": [
+          {
+            "id": "snake-game",
+            "title": "Snake Game",
+            "tagline": "A classic Snake game — fast, simple, and fun.",
+            "stack": ["Python", "Game Logic"],
+            "highlights": [
+              "Built core movement + collision logic",
+              "Clean loop-based gameplay flow",
+              "Strong fundamentals practice"
+            ],
+            "links": [
+              { "label": "GitHub", "url": "https://github.com/wahidhasan-75/snake-py-repo" }
+            ]
+          },
+          {
+            "id": "chatbot",
+            "title": "Chatbot",
+            "tagline": "A simple chatbot that answers basic questions.",
+            "stack": ["JavaScript", "HTML", "CSS"],
+            "highlights": [
+              "Basic intent-style responses",
+              "Simple UI for chat interaction",
+              "Deployed as a live web demo"
+            ],
+            "links": [
+              { "label": "GitHub", "url": "https://github.com/wahidhasan-75/chatbot" },
+              { "label": "Live Demo", "url": "https://wahidhasan-75.github.io/chatbot/" }
+            ]
+          },
+          {
+            "id": "garment-costing",
+            "title": "Garment Product Manager & Costing Calculator",
+            "tagline": "Modern garment management + costing calculator PWA web app.",
+            "stack": ["PWA", "JavaScript", "HTML", "CSS"],
+            "highlights": [
+              "Product management workflow + costing calculator",
+              "Modern, mobile-first UI",
+              "Live demo deployment"
+            ],
+            "links": [
+              { "label": "GitHub", "url": "https://github.com/wahidhasan-75/Garment_costing_calculation" },
+              { "label": "Live Demo", "url": "https://wahidhasan-75.github.io/Garment_costing_calculation/" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "syntax",
+      "title": "SYNTAX",
+      "subtitle": "Systems of thought, wired in light",
+      "poetry": "Skills are not listed. They connect.",
+      "color": "#4db6ac",
+      "position": [-2, -1, -35],
+      "actions": [
+        { "label": "Constellation", "url": "" },
+        { "label": "Systems Map", "url": "" },
+        { "label": "Thinking Models", "url": "" }
+      ],
+      "syntax":  {
+  "clusters": [
+    {
+      "id": "engineering-stack",
+      "name": "Engineering Stack",
+      "summary": "Full-stack building across frontend + backend.",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "React",
+        "Django",
+        "Node.js",
+        "PHP",
+        "C++",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": "cs-core",
+      "name": "CS Core",
+      "summary": "Fundamentals that power clean systems.",
+      "skills": [
+        "Data Structures & Algorithms (DSA)",
+        "Problem Solving",
+        "Logic Building",
+        "Debugging mindset",
+        "Machine Learning (learning)",
+        "Neural Networks (learning)",
+        "LLMs (learning)"
+      ]
+    },
+    {
+      "id": "tools-design",
+      "name": "Tools & Design",
+      "summary": "Design + productivity tools for real workflows.",
+      "skills": [
+        "Figma",
+        "Canva",
+        "Graphic Design",
+        "MS Word",
+        "MS Excel"
+      ]
+    },
+    {
+      "id": "human-layer",
+      "name": "Human Layer",
+      "summary": "Leadership, communication, and creative energy.",
+      "skills": [
+        "People Management",
+        "AD, BizBee Club (BRAC University)",
+        "English Proficiency",
+        "Football",
+        "Guitar",
+        "Traveling",
+        "Listening to songs",
+        "Watching movies",
+        "Cycling"
+      ]
+    }
+  ]
+}
+    },
+    {
+      "id": "ascent",
+      "title": "ASCENT",
+      "subtitle": "Trajectory, not trophies",
+      "poetry": "A distant pull - always upward.",
+      "color": "#ff8a65",
+      "position": [5, -2, -45],
+      "actions": [
+        { "label": "Milestone Trail", "url": "" },
+        { "label": "Certificates Vault", "url": "" },
+        { "label": "Awards Proof", "url": "" }
+      ],
+      "ascent": {
+  "milestones": [
+    {
+      "id": "m-python-case-study",
+      "title": "Case Study: Building Software in Python",
+      "year": "2025",
+      "tagline": "A focused case study on turning Python fundamentals into real, working software.",
+      "highlights": [
+        "Broke problems into logic → data → flow",
+        "Built small modules and connected them into a usable system",
+        "Practiced clean structure, readability, and debugging",
+        "Learned how to plan, build, test, and improve step-by-step"
+      ],
+      "proofUrl": ""
+    }
+  ],
+  "certificates": [
+    {
+      "id": "c-doe-award",
+      "title": "THE DUKE OF EDINBURGH'S INTERNATIONAL AWARD",
+      "issuer": "The Duke of Edinburgh’s International Award",
+      "year": "2025",
+      "tagline": "A global recognition of commitment, discipline, and personal growth through real-world action.",
+      "highlights": [
+        "Built consistency through long-term goal tracking",
+        "Improved leadership, teamwork, and responsibility",
+        "Strengthened communication and confidence",
+        "Developed resilience through structured challenges"
+      ],
+      "proofUrl": ""
+    },
+    {
+      "id": "c-nn-dl",
+      "title": "Neural Network And Deep Learning",
+      "issuer": "",
+      "year": "2025",
+      "tagline": "Core deep learning foundations — from neurons to training models with backpropagation.",
+      "highlights": [
+        "Neurons, layers, activations (ReLU, Sigmoid, Softmax)",
+        "Forward pass + loss intuition",
+        "Backpropagation and gradient descent basics",
+        "Overfitting vs generalization + regularization idea",
+        "Model evaluation mindset (accuracy, precision/recall)",
+        "Connected learning path toward ML and LLM systems"
+      ],
+      "proofUrl": ""
+    }
+  ]
+}
+
+    }
+  ],
+  "contact": {
+    "email": "kaziwahid09@gmail.com",
+    "github": "https://github.com/wahidhasan-75",
+    "linkedin": "https://www.linkedin.com/in/kazi-wahid-hasan-32a395384",
+    "resume": "",
+    "actions": [
+      { "label": "Send Signal kaziwahid09@gmail.com", "url": "mailto:kaziwahid09@gmail.com" },
+      { "label": "GitHub", "url": "https://github.com/wahidhasan-75" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/kazi-wahid-hasan-32a395384" },
+      { "label": "Facebook", "url": "" },
+      { "label": "Resume", "url": "" },
+      { "label": "Other Link", "url": "" }
+    ]
+  }
+}
