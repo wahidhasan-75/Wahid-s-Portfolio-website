@@ -4,6 +4,9 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // ✅ Required for GitHub Pages (username.github.io/REPO_NAME/)
+  base: "/Wahid-s-Portfolio-website/",
+
   server: {
     host: "::",
     port: 8080,
@@ -11,11 +14,14 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
+
   // Keep the runtime clean and portable (no Lovable-only dev plugins required).
   plugins: [react()],
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
 }));
+
