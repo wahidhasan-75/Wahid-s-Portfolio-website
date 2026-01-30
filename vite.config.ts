@@ -3,14 +3,13 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
-  // ✅ IMPORTANT for GitHub Pages project repo:
-  // https://wahidhasan-75.github.io/Wahid-s-Portfolio-website/
-  base: mode === "production" ? "/Wahid-s-Portfolio-website/" : "/",
-
+  // IMPORTANT for GitHub Pages project repo
   server: {
     host: "::",
     port: 8080,
-    hmr: { overlay: false },
+    hmr: {
+      overlay: false,
+    },
   },
 
   plugins: [react()],
@@ -21,3 +20,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+
+
