@@ -5,14 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/copy404.mjs",
+    "build": "vite build",
     "build:dev": "vite build --mode development",
+    "build:gh": "cross-env VITE_GH_PAGES=true vite build && node scripts/copy404.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "predeploy": "cross-env VITE_BASE=/Wahid-s-Portfolio-website/ npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build:gh && gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
